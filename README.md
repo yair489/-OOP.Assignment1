@@ -13,4 +13,4 @@ that will be called by the subject when a change occurs.
 The observer design pattern is useful for creating a system where objects can be notified of changes in other objects
 without having to know the details of those objects. This allows for a more flexible and modular design,
 as the subject and observer objects can be developed and used independently of each other.
-
+gg

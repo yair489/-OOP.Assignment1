@@ -11,6 +11,7 @@ interface for attaching and detaching observers.
 2. Observer: This is an object that wants to be notified of changes in the subject. It defines a update() method
 that will be called by the subject when a change occurs.
 3. Client: This is the object that creates the subject and observer objects and establishes the relationship between them.
+
 The observer design pattern is useful for creating a system where objects can be notified of changes in other objects
 without having to know the details of those objects. This allows for a more flexible and modular design,
 as the subject and observer objects can be developed and used independently of each other.
@@ -22,6 +23,7 @@ In addition,The Member interface has the following methods:
 1. getName(): This method returns the name of the member.
 2. getGroup(): This method returns the group to which the member belongs.
 3. isActive(): This method returns a boolean value indicating whether the member is active or not.
+
 The ConcertMember object is the observe, it is contains an UndoableStringBuilder object reference, in case whice the ConcertMember object
 related to a GroupAdmin object, it will be update (by updating his UndoableStringBuilder pointer reference to the GroupAdmin's 
 UndoableStringBuilder object) everytime that the GroupAdmin object send him an update.

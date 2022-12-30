@@ -43,5 +43,16 @@ in addition, it will pass a referrnce to his UndoableStringBuilder object.
 
 ### Tests
 
+UndoableStringBuilderTest
+In this class, we tested all the UndoableStringBuilder functionality.
+This class was copied from the previous assignment.
+
+ConcreteMemberTest
+In this class We tested the function update.
+
+GroupAdminTest
+In this department, we tested adding a member to the list and typing.
+the notifiy function and certain functions from UndoableStringBuilder, etc.
+
 
 

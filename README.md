@@ -33,6 +33,7 @@ provide support for sending and receiving electronic mail (email) messages.
 The Sender interface has the following methods:
 1. getName(): This method returns the name of the sender.
 2. getAddress(): This method returns the email address of the sender.
+
 The GroupAdmin object is the subject, it is contains an ArrayList object (of all related members, every time when a member related to the
 GroupAdmin it is added to the array) and an UndoableStringBuilder object.
 In case a change is made in the UndoableStringBuilder objec, the GroupAdmin object will send an update about the change to all the related members, 
